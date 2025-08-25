@@ -22,7 +22,7 @@ Given **3 positives numbers** `a`, `b` and `c`. Return the **minimum flips** req
 > - If d3 == 0 -> Both d1 and d2 must be 0, so flip 1 for each bit that is 1.
 > - If d3 == 1 -> At least one of d1 or d2 must be 1, so if both are 0 -> flip once.
  
-- right-shifting bits -  a = a>>1, b = b>>1, c = c>>1.
+- right-shifting bits -  `a = a>>1`, `b = b>>1`, `c = c>>1`.
 
 - Return the total count of flips.
 
